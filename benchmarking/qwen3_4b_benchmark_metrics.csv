@@ -1,0 +1,12 @@
+metric,value
+Model,/workspace/sinhala-qwen3-4b-lora-merged
+Questions,1851
+Overall accuracy,0.3803349540788763
+Overall CI95 lower,0.35980551053484605
+Overall CI95 upper,0.4019448946515397
+Culture questions,1393
+Culture accuracy,0.3653984206748026
+Non-culture questions,458
+Non-culture accuracy,0.425764192139738
+Culture minus non-culture,-0.06036577146493538
+Average confidence,0.5718752213067972

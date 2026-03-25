@@ -1,0 +1,12 @@
+metric,value
+Model,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global)
+Questions,1851
+Overall accuracy,0.26094003241491087
+Overall CI95 lower,0.24095083738519718
+Overall CI95 upper,0.2820097244732577
+Culture questions,1393
+Culture accuracy,0.25699928212491024
+Non-culture questions,458
+Non-culture accuracy,0.27292576419213976
+Culture minus non-culture,-0.01592648206722952
+Average confidence,0.3670799454793873
