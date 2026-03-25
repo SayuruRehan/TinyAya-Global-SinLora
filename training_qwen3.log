@@ -1,0 +1,172 @@
+10:51:46 | INFO | ============================================================
+10:51:46 | INFO | STEP 1 — System Check
+10:51:46 | INFO | ============================================================
+10:51:47 | INFO | transformers : 5.3.0  OK
+10:51:48 | INFO | GPU  : NVIDIA A40
+10:51:48 | INFO | VRAM : 44.4 GB
+10:51:48 | INFO | RAM  : 503.5 GB
+10:51:48 | INFO | ============================================================
+10:51:48 | INFO | STEP 2 — HuggingFace Login
+10:51:48 | INFO | ============================================================
+10:51:48 | INFO | HTTP Request: GET https://huggingface.co/api/whoami-v2 "HTTP/1.1 200 OK"
+10:51:48 | WARNING | Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+10:51:48 | INFO | HTTP Request: GET https://huggingface.co/api/whoami-v2 "HTTP/1.1 200 OK"
+10:51:48 | INFO | Authenticated as: ovinduG
+10:51:48 | INFO | ============================================================
+10:51:48 | INFO | STEP 3 — Paths & Format Check
+10:51:48 | INFO | ============================================================
+10:51:48 | INFO |   train  : /workspace/train_small.jsonl  (37.0 MB)  [messages format OK]
+10:51:48 | INFO |   val    : /workspace/val_small.jsonl  (2.6 MB)  [messages format OK]
+10:51:48 | INFO | ============================================================
+10:51:48 | INFO | STEP 4 — Tokenizer
+10:51:48 | INFO | ============================================================
+10:51:48 | INFO | Loading: Qwen/Qwen3-4B-Instruct-2507
+10:51:48 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+10:51:48 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+10:51:48 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+10:51:48 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+10:51:48 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/tokenizer_config.json "HTTP/1.1 200 OK"
+10:51:48 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/tokenizer_config.json "HTTP/1.1 200 OK"
+10:51:48 | INFO | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-4B-Instruct-2507/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+10:51:48 | INFO | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-4B-Instruct-2507/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+10:51:48 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/vocab.json "HTTP/1.1 307 Temporary Redirect"
+10:51:49 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/vocab.json "HTTP/1.1 200 OK"
+10:51:49 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/vocab.json "HTTP/1.1 200 OK"
+10:51:49 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/merges.txt "HTTP/1.1 307 Temporary Redirect"
+10:51:49 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/merges.txt "HTTP/1.1 200 OK"
+10:51:49 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/merges.txt "HTTP/1.1 200 OK"
+10:51:49 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/tokenizer.json "HTTP/1.1 302 Found"
+10:51:49 | INFO | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-4B-Instruct-2507/xet-read-token/cdbee75f17c01a7cc42f958dc650907174af0554 "HTTP/1.1 200 OK"
+10:51:49 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+10:51:49 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/special_tokens_map.json "HTTP/1.1 404 Not Found"
+10:51:49 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+10:51:50 | INFO | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-4B-Instruct-2507 "HTTP/1.1 200 OK"
+10:51:50 | INFO |   Vocab size : 151,643
+10:51:50 | INFO |   EOS token  : '<|im_end|>' (id=151645)
+10:51:50 | INFO |   Chat template OK — sample: '<|im_start|>system\ntest /no_think<|im_end|>\n<|im_start|>user'
+10:51:50 | INFO | ============================================================
+10:51:51 | INFO | STEP 5 — Load & Preprocess Dataset
+10:51:51 | INFO | ============================================================
+10:51:51 | INFO | Loading with 8 parallel workers...
+10:51:51 | INFO | HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/json/json.py "HTTP/1.1 200 OK"
+10:51:52 | WARNING | Setting num_proc from 8 back to 1 for the train split to disable multiprocessing as it only contains one shard.
+10:51:52 | WARNING | Setting num_proc from 8 back to 1 for the validation split to disable multiprocessing as it only contains one shard.
+10:51:52 | INFO |   Train      : 28,000
+10:51:52 | INFO |   Validation : 2,000
+10:51:52 | INFO | Adding /no_think to system messages...
+10:51:52 | WARNING | Setting TOKENIZERS_PARALLELISM=false for forked processes.
+10:51:53 | WARNING | Setting TOKENIZERS_PARALLELISM=false for forked processes.
+10:51:53 | INFO | Dataset ready.
+10:51:53 | INFO | ============================================================
+10:51:53 | INFO | STEP 6 — Load Model (bf16, no quantization)
+10:51:53 | INFO | ============================================================
+10:51:53 | INFO | Loading: Qwen/Qwen3-4B-Instruct-2507
+10:51:53 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+10:51:53 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+10:51:53 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+10:51:54 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+10:51:54 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+10:51:54 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+10:51:54 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/model.safetensors.index.json "HTTP/1.1 307 Temporary Redirect"
+10:51:54 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/model.safetensors.index.json "HTTP/1.1 200 OK"
+10:51:54 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/model.safetensors.index.json "HTTP/1.1 200 OK"
+10:51:54 | INFO | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-4B-Instruct-2507/revision/main "HTTP/1.1 200 OK"
+10:51:54 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/cdbee75f17c01a7cc42f958dc650907174af0554/model-00001-of-00003.safetensors "HTTP/1.1 302 Found"
+10:51:54 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/cdbee75f17c01a7cc42f958dc650907174af0554/model-00002-of-00003.safetensors "HTTP/1.1 302 Found"
+10:51:54 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/cdbee75f17c01a7cc42f958dc650907174af0554/model-00003-of-00003.safetensors "HTTP/1.1 302 Found"
+10:52:06 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+10:52:06 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/generation_config.json "HTTP/1.1 200 OK"
+10:52:06 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/generation_config.json "HTTP/1.1 200 OK"
+10:52:06 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/custom_generate/generate.py "HTTP/1.1 404 Not Found"
+10:52:06 | INFO | Model loaded.  Allocated: 7.49 GB | Free: 36.93 GB
+10:52:06 | INFO | dtype: torch.bfloat16
+10:52:06 | INFO | ============================================================
+10:52:06 | INFO | STEP 7 — LoRA Adapters (rank 16)
+10:52:06 | INFO | ============================================================
+10:52:13 | INFO | Gradient checkpointing : False  (must be False)
+10:52:13 | INFO | After LoRA — allocated: 7.62 GB | free: 36.81 GB
+10:52:13 | INFO | ============================================================
+10:52:13 | INFO | STEP 8 — Training
+10:52:13 | INFO | ============================================================
+10:52:13 | INFO | GPU before training: 44.4 GB total | 36.8 GB free
+10:52:13 | INFO | Effective batch   : 32
+10:52:13 | INFO | Steps per epoch   : 875
+10:52:13 | INFO | Total steps       : 2,625
+10:52:13 | INFO | Warmup steps      : 131
+10:52:13 | INFO | Estimated time    : ~29 min (~0.5 hrs)
+10:52:40 | INFO | ------------------------------------------------------------
+10:52:40 | INFO | Model          : Qwen/Qwen3-4B-Instruct-2507
+10:52:40 | INFO | Thinking mode  : DISABLED via /no_think
+10:52:40 | INFO | Grad ckpt      : OFF (full speed)
+10:52:40 | INFO | Epochs         : 3
+10:52:40 | INFO | Effective batch: 32
+10:52:40 | INFO | Max length     : 512
+10:52:40 | INFO | Estimated time : ~29 min total
+10:52:40 | INFO | ------------------------------------------------------------
+12:04:15 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+12:04:15 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+12:04:15 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+12:04:15 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+13:15:47 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+13:15:47 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+13:15:47 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+13:15:47 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+14:27:11 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+14:27:11 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+14:27:11 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+14:27:11 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+15:38:18 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15:38:18 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+15:38:18 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15:38:18 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+16:50:18 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+16:50:18 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+16:50:18 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+16:50:18 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+17:07:29 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+17:07:29 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+17:07:29 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+17:07:29 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+17:07:33 | INFO | ============================================================
+17:07:33 | INFO | Training complete!  Time: 6h 14m
+17:07:33 | INFO | Final training loss: 0.4535
+17:07:33 | INFO | ============================================================
+17:07:33 | INFO | ============================================================
+17:07:33 | INFO | STEP 9 — Save
+17:07:33 | INFO | ============================================================
+17:07:33 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+17:07:33 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+17:07:33 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+17:07:33 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+17:07:35 | INFO | Saved to: /workspace/sinhala-qwen3-4b-lora
+17:07:35 | INFO |   README.md  (0.0 MB)
+17:07:35 | INFO |   adapter_config.json  (0.0 MB)
+17:07:35 | INFO |   adapter_model.safetensors  (126.1 MB)
+17:07:35 | INFO |   all_results.json  (0.0 MB)
+17:07:35 | INFO |   chat_template.jinja  (0.0 MB)
+17:07:35 | INFO |   tokenizer.json  (10.9 MB)
+17:07:35 | INFO |   tokenizer_config.json  (0.0 MB)
+17:07:35 | INFO |   train_results.json  (0.0 MB)
+17:07:35 | INFO |   trainer_state.json  (0.0 MB)
+17:07:35 | INFO |   training_args.bin  (0.0 MB)
+17:07:35 | INFO | ============================================================
+17:07:35 | INFO | STEP 10 — Merge LoRA into Base Model
+17:07:35 | INFO | ============================================================
+17:07:36 | INFO | Loading base model for merging...
+17:07:36 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+17:07:36 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+17:07:36 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+17:07:36 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/config.json "HTTP/1.1 200 OK"
+17:07:38 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+17:07:38 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Instruct-2507/cdbee75f17c01a7cc42f958dc650907174af0554/generation_config.json "HTTP/1.1 200 OK"
+17:07:38 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/custom_generate/generate.py "HTTP/1.1 404 Not Found"
+17:07:38 | INFO | Loading LoRA adapters...
+17:07:45 | INFO | Merging...
+17:07:45 | INFO | Saving merged model to: /workspace/sinhala-qwen3-4b-lora-merged
+17:08:15 | INFO | Merged model saved.
+17:08:15 | INFO | ============================================================
+17:08:15 | INFO | ALL DONE
+17:08:15 | INFO |   Adapter : /workspace/sinhala-qwen3-4b-lora
+17:08:15 | INFO |   Merged  : /workspace/sinhala-qwen3-4b-lora-merged
+17:08:15 | INFO |   Log     : /workspace/training_qwen3.log
+17:08:15 | INFO | ============================================================
