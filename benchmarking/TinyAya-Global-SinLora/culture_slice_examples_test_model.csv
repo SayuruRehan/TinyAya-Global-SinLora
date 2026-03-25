@@ -1,0 +1,699 @@
+q_no,subject,subject_original,category,difficulty,type,grade,source,year,province,question,choices,answer,source_file,model,prompt,pred,correct,confidence,culture_slice
+78,Health and Physical Science,සෞඛ්‍ය හා ශාරීරික විද්‍යාව,social_science,easy,P_NCP_3,8,https://pastpapers.wiki/grade-08-health-and-physical-education-3rd-term-test-paper-with-answers-2019-sinhala-medium-north-central-province/,2019,,"ධාවන තරඟ ආරම්භයේදී ඉසව් අනුව තරඟ ආරම්භක ක්‍රමද වෙනස් වේ. ඒ අතරින් කුදු ආරම්භය යොදා ගන්නා තරඟ ඉසව් පමණක් ඇතුළත් කාණ්ඩය වන්නේ,","['800m, 1500m, 500m', '100m, 800m, 1500m', '5000m, 200m, 4 x 100m', '100m, 400m, 200m']",4,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Health_and_Physical_Science_social_science_easy_f_130.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය සෞඛ්‍ය හා ශාරීරික විද්‍යාව විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: ධාවන තරඟ ආරම්භයේදී ඉසව් අනුව තරඟ ආරම්භක ක්‍රමද වෙනස් වේ. ඒ අතරින් කුදු ආරම්භය යොදා ගන්නා තරඟ ඉසව් පමණක් ඇතුළත් කාණ්ඩය වන්නේ,
+1. 800m, 1500m, 500m
+2. 100m, 800m, 1500m
+3. 5000m, 200m, 4 x 100m
+4. 100m, 400m, 200m
+
+පිළිතුර: ",2,0,0.7497662305831909,True
+28,dancing,නර්තනය,humanities,easy,P_NWP_2,6,https://pastpapers.wiki/grade-06-dancing-2nd-term-test-paper-with-answers-2019-sinhala-medium-southern-province/,2019,,මුල් යුගයේ වන්නම් රචනා වී ඇත්තේ,"['ගායනා සඳහා ය', 'නර්තනය සඳහා ය.', 'රංගනය සඳහා ය.', 'නාට්\u200dය සඳහා ය.']",1,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/dancing_humanities_easy_f_108.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය නර්තනය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: මුල් යුගයේ වන්නම් රචනා වී ඇත්තේ
+1. ගායනා සඳහා ය
+2. නර්තනය සඳහා ය.
+3. රංගනය සඳහා ය.
+4. නාට්‍ය සඳහා ය.
+
+පිළිතුර: ",2,0,0.6980665922164917,True
+43,Arts,චිත්‍ර,humanities,easy,P_NCP_2,7,https://pastpapers.wiki/grade-07-art-2nd-term-test-paper-with-answers-2019-sinhala-medium-north-central-province/,2019,,"කොළ වර්ණය සාදා ගැනීමට එකතු කළ යුතු වර්ණ යුගලය වන්නේ,","['නිල්, රතු.', 'කහ, නිල්.', 'රතු, කහ.', 'දම්, රඹ.']",2,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Arts_humanities_easy_f_97.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය චිත්‍ර විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: කොළ වර්ණය සාදා ගැනීමට එකතු කළ යුතු වර්ණ යුගලය වන්නේ,
+1. නිල්, රතු.
+2. කහ, නිල්.
+3. රතු, කහ.
+4. දම්, රඹ.
+
+පිළිතුර: ",3,0,0.6824601888656616,True
+44,Sinhala language and literature,සිංහල භාෂාව සහ සාහිත්‍යය,language,easy,Z_Mathugama,6,https://pastpapers.wiki/wp-admin/admin-ajax.php?juwpfisadmin=false&action=wpfd&task=file.download&wpfd_category_id=7811&wpfd_file_id=43300&token=&preview=1,2020,,"නිවැරදි අක්ෂර වින්‍යාසයෙන් යුතු වචනය තෝරන්න .
+බෝධිසත්වයෝ මෙසේ ........................................ කොට ගත්හ.","['අධිෂ්ඨාන', 'අධිශ්ඨාන', 'අධිස්ඨාන', 'අධිෂ්ටාන']",1,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Sinhala_language_and_literature_language_easy_f_155.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය සිංහල භාෂාව සහ සාහිත්‍යය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: නිවැරදි අක්ෂර වින්‍යාසයෙන් යුතු වචනය තෝරන්න .
+බෝධිසත්වයෝ මෙසේ ........................................ කොට ගත්හ.
+1. අධිෂ්ඨාන
+2. අධිශ්ඨාන
+3. අධිස්ඨාන
+4. අධිෂ්ටාන
+
+පිළිතුර: ",2,0,0.6594839692115784,True
+6,Civics,පුරවැසි අධ්‍යාපනය,social_science,easy,P_SP,6,https://pastpapers.wiki/grade-06-civic-education-3rd-term-test-paper-with-answers-2020-sinhala-medium-southern-province/,2020,,පාසල් සංවිධාන ව්‍යුහය තුළ පවතින ඉහළම තනතුර කුමක්ද?,"['විදුහල්පති', 'ගුරුවරයා', 'නියෝජ්\u200dය විදුහල්පති', 'ප්\u200dරධාන ශිෂ්\u200dය නායක']",1,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Civics_social_science_easy_f_129.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය පුරවැසි අධ්‍යාපනය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: පාසල් සංවිධාන ව්‍යුහය තුළ පවතින ඉහළම තනතුර කුමක්ද?
+1. විදුහල්පති
+2. ගුරුවරයා
+3. නියෝජ්‍ය විදුහල්පති
+4. ප්‍රධාන ශිෂ්‍ය නායක
+
+පිළිතුර: ",4,0,0.6539543867111206,True
+90,Eastern music,පෙරදිග සංගීතය,humanities,easy,None,7,https://pastpapers.wiki/wp-admin/admin-ajax.php?juwpfisadmin=false&action=wpfd&task=file.download&wpfd_category_id=7812&wpfd_file_id=26768&token=&preview=1,2019,,මාත්‍රා හතර බැගින් බෙදෙන ගී පාදය තෝරන්න.,"['සුවඳ පද්ම ඔලු ආදි......', 'සසර වසන තුරු.......', 'මොනවද මුත්තේ මොකද කරන්නේ...', 'නිල් අහස් තලේ........']",3,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Eastern_music_humanities_easy_f_143.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය පෙරදිග සංගීතය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: මාත්‍රා හතර බැගින් බෙදෙන ගී පාදය තෝරන්න.
+1. සුවඳ පද්ම ඔලු ආදි......
+2. සසර වසන තුරු.......
+3. මොනවද මුත්තේ මොකද කරන්නේ...
+4. නිල් අහස් තලේ........
+
+පිළිතුර: ",1,0,0.6437934637069702,True
+82,Geography,භූගෝල විද්‍යාව,social_science,easy,P_NWP_1,6,https://pastpapers.wiki/grade-06-geography-1st-term-test-paper-2018-north-western-province/?swcfpc=1,2018,,ශ්‍රී ලංකාවේ විශාලතම පරිපාලන ඒකකය ......................... වේ.,"['දිස්ත්\u200dරික්කය', 'ගම', 'පළාත', 'ප්\u200dරාදේශීය ලේකම් කොට්ඨාසය']",3,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Geography_social_science_easy_f_117.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය භූගෝල විද්‍යාව විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: ශ්‍රී ලංකාවේ විශාලතම පරිපාලන ඒකකය ......................... වේ.
+1. දිස්ත්‍රික්කය
+2. ගම
+3. පළාත
+4. ප්‍රාදේශීය ලේකම් කොට්ඨාසය
+
+පිළිතුර: ",4,0,0.6409876346588135,True
+101,Christianity,ක්‍රිස්තියානි ධර්මය,humanities,easy,P_NWP_3,8,https://pastpapers.wiki/grade-08-christianity-3rd-term-test-paper-with-answers-2019-sinhala-medium-north-western-province/,2019,,"""මෙන්න මාගේ පණිවුඩය නුඹේ මුඛයෙහි තැබීමි."" මෙහි සඳහන් වන්නේ කා ගැන ද?","['ජෙරමියා දිවැසිවරයා ගැන ය.', 'යෙසායා දිවැසිවරයා ගැන ය.', 'ආමෝස් දිවැසිවරයා ගැන ය.', 'එසකියෙල් දිවැසිවරයා ගැන ය.']",1,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Christianity_humanities_easy_f_130.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය ක්‍රිස්තියානි ධර්මය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: ""මෙන්න මාගේ පණිවුඩය නුඹේ මුඛයෙහි තැබීමි."" මෙහි සඳහන් වන්නේ කා ගැන ද?
+1. ජෙරමියා දිවැසිවරයා ගැන ය.
+2. යෙසායා දිවැසිවරයා ගැන ය.
+3. ආමෝස් දිවැසිවරයා ගැන ය.
+4. එසකියෙල් දිවැසිවරයා ගැන ය.
+
+පිළිතුර: ",2,0,0.6330268979072571,True
+5,Arts,චිත්‍ර,humanities,easy,P_NWP_3,6,https://pastpapers.wiki/2022-grade-06-art-3rd-term-test-paper-with-answers-north-western-province/?swcfpc=4,2022,,බෞද්ධ ස්ථූප ප්‍රධාන ආකාර කීයද?,"['2', '8', '6', '10']",3,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Arts_humanities_easy_f_97.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය චිත්‍ර විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: බෞද්ධ ස්ථූප ප්‍රධාන ආකාර කීයද?
+1. 2
+2. 8
+3. 6
+4. 10
+
+පිළිතුර: ",2,0,0.6278600096702576,True
+1,Geography,භූගෝල විද්‍යාව,social_science,easy,P_NWP_1,6,https://pastpapers.wiki/grade-06-geography-1st-term-test-paper-with-answers-2019-sinhala-medium-north-western-province/,2019,,කාලගුණික තොරතුරු දැන ගැනීම වඩාත්ම ප්‍රයෝජනවත් වන්නේ පහත සඳහන් කවරෙකුටද?,"['ගුරුවරුන්ටය', 'වෛද්\u200dයවරුන්ටය', 'ධීවරයින්ටය', 'වඩු කාර්මිකයින්ටය']",3,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Geography_social_science_easy_f_117.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය භූගෝල විද්‍යාව විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: කාලගුණික තොරතුරු දැන ගැනීම වඩාත්ම ප්‍රයෝජනවත් වන්නේ පහත සඳහන් කවරෙකුටද?
+1. ගුරුවරුන්ටය
+2. වෛද්‍යවරුන්ටය
+3. ධීවරයින්ටය
+4. වඩු කාර්මිකයින්ටය
+
+පිළිතුර: ",2,0,0.6274251341819763,True
+7,Buddhism,බුද්ධ ධර්මය,humanities,easy,P_SP_3,6,https://pastpapers.wiki/grade-06-buddhism-3rd-term-test-paper-with-answers-2020-sinhala-medium-southern-province/,2020,,"ගිහි ගෙයින් නික්ම යන විට සිදුහත් කුමරුගේ වයස අවුරුදු,","['16 කි.', '20 කි.', '25 කි.', '29 කි.']",4,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Buddhism_humanities_easy_f_162.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය බුද්ධ ධර්මය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: ගිහි ගෙයින් නික්ම යන විට සිදුහත් කුමරුගේ වයස අවුරුදු,
+1. 16 කි.
+2. 20 කි.
+3. 25 කි.
+4. 29 කි.
+
+පිළිතුර: ",2,0,0.6268010139465332,True
+108,Civics,පුරවැසි අධ්‍යාපනය,social_science,easy,P_CP,8,https://pastpapers.wiki/grade-08-civic-education-3rd-term-test-paper-with-answers-2019-sinhala-medium-central-province/,2019,,"සේවක අයිතිවාසිකම් ආරක්ෂා කර දීම සඳහා ශ්‍රී ලංකාවේ සලසා ඇති විධිවිධාන වලට අයත් පනතක් වන්නේ,","['සේවක අර්ථසාධක අරමුදල් පනත.', 'අනිවාර්යය අධ්\u200dයාපන පනත.', 'උසස් අධ්\u200dයාපන පනත.', 'ශ්\u200dරී ලංකා දේශීය සේවා පනත.']",1,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Civics_social_science_easy_f_129.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය පුරවැසි අධ්‍යාපනය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: සේවක අයිතිවාසිකම් ආරක්ෂා කර දීම සඳහා ශ්‍රී ලංකාවේ සලසා ඇති විධිවිධාන වලට අයත් පනතක් වන්නේ,
+1. සේවක අර්ථසාධක අරමුදල් පනත.
+2. අනිවාර්යය අධ්‍යාපන පනත.
+3. උසස් අධ්‍යාපන පනත.
+4. ශ්‍රී ලංකා දේශීය සේවා පනත.
+
+පිළිතුර: ",4,0,0.619719386100769,True
+82,History,ඉතිහාසය,humanities,easy,Z_Mathugama,7,https://pastpapers.wiki/grade-07-history-2nd-term-test-paper-with-answers-2023-mathugama-zone/,2023,,"පහත කොටස් නිවැරදිව ගැලපූ විට නිවැරදි පිළිතුර වන්නේ,
+1 ) මානවම්ම කුමරුට හමුදාවක් ලබා දීම, 2) රෝමය සමඟ සබඳතා පැවැත්වීම, 3) ලම්භකර්ණ පෙළපතට අයත් පාලකයෙකි, 4) ලංකාව ආක්‍රමණය කළ පාණ්ඩ්‍ය රජෙකි                                                                                                                                                                                                                               A ශ්‍රීමාර ශ්‍රී වල්ලභ, B වසභ රජු, C පළමුවන නරසිංහ වර්මන්, D භාතිකාභය රජු","['ADCB', 'CDBA', 'BCAD', 'CABD']",2,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/History_social_science_easy_f_151.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය ඉතිහාසය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: පහත කොටස් නිවැරදිව ගැලපූ විට නිවැරදි පිළිතුර වන්නේ,
+1 ) මානවම්ම කුමරුට හමුදාවක් ලබා දීම, 2) රෝමය සමඟ සබඳතා පැවැත්වීම, 3) ලම්භකර්ණ පෙළපතට අයත් පාලකයෙකි, 4) ලංකාව ආක්‍රමණය කළ පාණ්ඩ්‍ය රජෙකි                                                                                                                                                                                                                               A ශ්‍රීමාර ශ්‍රී වල්ලභ, B වසභ රජු, C පළමුවන නරසිංහ වර්මන්, D භාතිකාභය රජු
+1. ADCB
+2. CDBA
+3. BCAD
+4. CABD
+
+පිළිතුර: ",3,0,0.6095080375671387,True
+59,drama and Theatre,නාට්‍ය හා රංග කලාව,humanities,easy,P_CP,7,https://pastpapers.wiki/grade-07-drama-3rd-term-test-paper-2019-sinhala-medium-central-province/,2019,,"A,B,C,D කොටස් ඇසුරෙන් පහත ප්‍රශ්නයට පිළිතුරු සපයන්න
+
+A. සුවඳ පද්ම ඕලු ආදී - නොයෙක පුෂ්පයෙන් සැඳී
+
+B. කටේ කිරි සුවඳ යන්නට පවා බැරි වුණා
+
+C. අහසින් අවුත් මිණි අක් නයිඳු යැදුමට
+රහතන් මැදෙහි මුනි හිඳ මිණි පලඟ පිට
+
+D. අද වෙස්සන්තර රාජ පුතා, මන්ද්‍රි කුමාරි බදී
+
+E. මහත් වැඩක් තව කියමි අසන්නේ
+පහත් ව පා ළඟ දෙමාපියන්නේ
+
+'ටිකිරි කුමරු' හා සම්බන්ධ ඓතිහාසික කථා පුවතට අදාළ ගීත ඛණ්ඩය අයත් අක්ෂරය වන්නේ,
+","['A ය', 'B ය', 'C ය', 'D ය']",2,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/drama_and_theatre_humanities_easy_f_128.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය නාට්‍ය හා රංග කලාව විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: A,B,C,D කොටස් ඇසුරෙන් පහත ප්‍රශ්නයට පිළිතුරු සපයන්න
+
+A. සුවඳ පද්ම ඕලු ආදී - නොයෙක පුෂ්පයෙන් සැඳී
+
+B. කටේ කිරි සුවඳ යන්නට පවා බැරි වුණා
+
+C. අහසින් අවුත් මිණි අක් නයිඳු යැදුමට
+රහතන් මැදෙහි මුනි හිඳ මිණි පලඟ පිට
+
+D. අද වෙස්සන්තර රාජ පුතා, මන්ද්‍රි කුමාරි බදී
+
+E. මහත් වැඩක් තව කියමි අසන්නේ
+පහත් ව පා ළඟ දෙමාපියන්නේ
+
+'ටිකිරි කුමරු' හා සම්බන්ධ ඓතිහාසික කථා පුවතට අදාළ ගීත ඛණ්ඩය අයත් අක්ෂරය වන්නේ,
+
+1. A ය
+2. B ය
+3. C ය
+4. D ය
+
+පිළිතුර: ",1,0,0.6061547994613647,True
+32,drama and Theatre,නාට්‍ය හා රංග කලාව,humanities,easy,P_NWP_2,6,https://pastpapers.wiki/2023-grade-06-drama-2nd-term-test-paper-with-answers-north-western-province/,2023,,"පහත සඳහන් A,B,C,D,E කොටස් ඇසුරෙන් පහත ප්‍රශ්නවලට පිළිතුරු සපයන්න.
+
+A. "" මව්පිය දෙදෙනාට සලකාපන්නේ
+හිරිහැර කෙරුමට සිත නොම ගන්නේ
+බසිමින් පාරට පැන නුදුවන්නේ
+දවසින් දවසම දැන හැදියන්නේ ""
+
+B. කියාපන් යාළුවේ, කියාපන් මොකද මේ හනිකේ පස්ස නොබලාම දුවන් යන්නේ?
+
+C. කැත්තක් අරගෙන වත්තට යන කොට පෙත්තෙක් ඉඳගෙන කජු කනවා.
+
+D. කිසිම දෙයක් ලැබුණේ නැහැ
+කුස්සි ගානේ ඇවිද්දා මං
+දැන් ඉස්සර වගේ ගේවල
+වැඩිපුර කෑමත් නෑනේ
+
+E. ""දුකක් නැති ව මා ඇති කළ අම්මාට
+මිටක් වත් දුන්නේ නැත වී ඉල්ලු විට
+දෙකක් වී මැනලා දීලත් මල්ලකට
+මොකක් කියනවද මැහැලියේ පල දොරට
+
+D අක්ෂරය ට අදාළ සංවාදය ඇතුලත් නාට්‍යය වන්නේ.","['අමර ගියා දිවිය ලෝකෙ', 'මාෂා සහ වළහා', 'නරිබෑනා', 'පුංචි අපට දැන් තේරෙයි']",4,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/drama_and_theatre_humanities_easy_f_128.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය නාට්‍ය හා රංග කලාව විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: පහත සඳහන් A,B,C,D,E කොටස් ඇසුරෙන් පහත ප්‍රශ්නවලට පිළිතුරු සපයන්න.
+
+A. "" මව්පිය දෙදෙනාට සලකාපන්නේ
+හිරිහැර කෙරුමට සිත නොම ගන්නේ
+බසිමින් පාරට පැන නුදුවන්නේ
+දවසින් දවසම දැන හැදියන්නේ ""
+
+B. කියාපන් යාළුවේ, කියාපන් මොකද මේ හනිකේ පස්ස නොබලාම දුවන් යන්නේ?
+
+C. කැත්තක් අරගෙන වත්තට යන කොට පෙත්තෙක් ඉඳගෙන කජු කනවා.
+
+D. කිසිම දෙයක් ලැබුණේ නැහැ
+කුස්සි ගානේ ඇවිද්දා මං
+දැන් ඉස්සර වගේ ගේවල
+වැඩිපුර කෑමත් නෑනේ
+
+E. ""දුකක් නැති ව මා ඇති කළ අම්මාට
+මිටක් වත් දුන්නේ නැත වී ඉල්ලු විට
+දෙකක් වී මැනලා දීලත් මල්ලකට
+මොකක් කියනවද මැහැලියේ පල දොරට
+
+D අක්ෂරය ට අදාළ සංවාදය ඇතුලත් නාට්‍යය වන්නේ.
+1. අමර ගියා දිවිය ලෝකෙ
+2. මාෂා සහ වළහා
+3. නරිබෑනා
+4. පුංචි අපට දැන් තේරෙයි
+
+පිළිතුර: ",1,0,0.603430986404419,True
+52,Geography,භූගෝල විද්‍යාව,social_science,easy,Z_Mathugama,7,https://pastpapers.wiki/wp-admin/admin-ajax.php?juwpfisadmin=false&action=wpfd&task=file.download&wpfd_category_id=7812&wpfd_file_id=43398&token=&preview=1,2020,,"වඩාත්ම ගැලපෙන පිළිතුර තෝරන්න
+ඩෙල්ප්ස් , කයිට්ස් , නාගදීපය වැනි දූපත් පිහිටා ඇත්තේ ..................... දිස්ත්‍රික්කයේය .","['පුත්තලම', 'යාපනය', 'මඩකලපුව', 'ත්\u200dරිකුණාමලය']",2,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Geography_social_science_easy_f_117.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය භූගෝල විද්‍යාව විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: වඩාත්ම ගැලපෙන පිළිතුර තෝරන්න
+ඩෙල්ප්ස් , කයිට්ස් , නාගදීපය වැනි දූපත් පිහිටා ඇත්තේ ..................... දිස්ත්‍රික්කයේය .
+1. පුත්තලම
+2. යාපනය
+3. මඩකලපුව
+4. ත්‍රිකුණාමලය
+
+පිළිතුර: ",4,0,0.5976947546005249,True
+34,drama and Theatre,නාට්‍ය හා රංග කලාව,humanities,easy,P_NWP_2,6,https://pastpapers.wiki/2023-grade-06-drama-2nd-term-test-paper-with-answers-north-western-province/,2023,,"පහත සඳහන් A,B,C,D,E කොටස් ඇසුරෙන් පහත ප්‍රශ්නවලට පිළිතුරු සපයන්න.
+
+A. "" මව්පිය දෙදෙනාට සලකාපන්නේ
+හිරිහැර කෙරුමට සිත නොම ගන්නේ
+බසිමින් පාරට පැන නුදුවන්නේ
+දවසින් දවසම දැන හැදියන්නේ ""
+
+B. කියාපන් යාළුවේ, කියාපන් මොකද මේ හනිකේ පස්ස නොබලාම දුවන් යන්නේ?
+
+C. කැත්තක් අරගෙන වත්තට යන කොට පෙත්තෙක් ඉඳගෙන කජු කනවා.
+
+D. කිසිම දෙයක් ලැබුණේ නැහැ
+කුස්සි ගානේ ඇවිද්දා මං
+දැන් ඉස්සර වගේ ගේවල
+වැඩිපුර කෑමත් නෑනේ
+
+E. ""දුකක් නැති ව මා ඇති කළ අම්මාට
+මිටක් වත් දුන්නේ නැත වී ඉල්ලු විට
+දෙකක් වී මැනලා දීලත් මල්ලකට
+මොකක් කියනවද මැහැලියේ පල දොරට
+
+B අක්ෂරය ඇතුලත් ජනකතාව වන්නේ","['නාඩි බැලීම', 'අහස කඩා වැටීම', 'හීල්බත් දංකුඩ', 'අනුන්ට කැපූ වලේ තමන් වැටීම.']",2,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/drama_and_theatre_humanities_easy_f_128.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය නාට්‍ය හා රංග කලාව විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: පහත සඳහන් A,B,C,D,E කොටස් ඇසුරෙන් පහත ප්‍රශ්නවලට පිළිතුරු සපයන්න.
+
+A. "" මව්පිය දෙදෙනාට සලකාපන්නේ
+හිරිහැර කෙරුමට සිත නොම ගන්නේ
+බසිමින් පාරට පැන නුදුවන්නේ
+දවසින් දවසම දැන හැදියන්නේ ""
+
+B. කියාපන් යාළුවේ, කියාපන් මොකද මේ හනිකේ පස්ස නොබලාම දුවන් යන්නේ?
+
+C. කැත්තක් අරගෙන වත්තට යන කොට පෙත්තෙක් ඉඳගෙන කජු කනවා.
+
+D. කිසිම දෙයක් ලැබුණේ නැහැ
+කුස්සි ගානේ ඇවිද්දා මං
+දැන් ඉස්සර වගේ ගේවල
+වැඩිපුර කෑමත් නෑනේ
+
+E. ""දුකක් නැති ව මා ඇති කළ අම්මාට
+මිටක් වත් දුන්නේ නැත වී ඉල්ලු විට
+දෙකක් වී මැනලා දීලත් මල්ලකට
+මොකක් කියනවද මැහැලියේ පල දොරට
+
+B අක්ෂරය ඇතුලත් ජනකතාව වන්නේ
+1. නාඩි බැලීම
+2. අහස කඩා වැටීම
+3. හීල්බත් දංකුඩ
+4. අනුන්ට කැපූ වලේ තමන් වැටීම.
+
+පිළිතුර: ",1,0,0.5820226669311523,True
+39,Health and Physical Science,සෞඛ්‍ය හා ශාරීරික විද්‍යාව,social_science,easy,P_CP,7,https://pastpapers.wiki/grade-07-health-3rd-term-test-paper-2019-sinhala-medium-central-province/,2019,,තම හැකියා හඳුනා ගනිමින් එදිනෙදා අභියෝග වලට ඵලදායි ලෙස මුහුණදිය හැකි හිංසන හා දඬුවම් ගැටුම් වලින් තොර පරිසරය අප හඳුන්වන්නේ ...................... ලෙසය.,"['භෞතික පරිසරය.', 'මානසික පරිසරය.', 'අධ්\u200dයාත්මික පරිසරය.', 'සෞඛ්\u200dයවත් පරිසරය.']",2,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Health_and_Physical_Science_social_science_easy_f_130.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය සෞඛ්‍ය හා ශාරීරික විද්‍යාව විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: තම හැකියා හඳුනා ගනිමින් එදිනෙදා අභියෝග වලට ඵලදායි ලෙස මුහුණදිය හැකි හිංසන හා දඬුවම් ගැටුම් වලින් තොර පරිසරය අප හඳුන්වන්නේ ...................... ලෙසය.
+1. භෞතික පරිසරය.
+2. මානසික පරිසරය.
+3. අධ්‍යාත්මික පරිසරය.
+4. සෞඛ්‍යවත් පරිසරය.
+
+පිළිතුර: ",4,0,0.5808696746826172,True
+61,Geography,භූගෝල විද්‍යාව,social_science,easy,P_NCP_2,7,https://pastpapers.wiki/wp-admin/admin-ajax.php?juwpfisadmin=false&action=wpfd&task=file.download&wpfd_category_id=7812&wpfd_file_id=46154&token=&preview=1,2019,,"ශ්‍රී ලංකාවේ මධ්‍ය වාර්ෂික උෂ්ණත්වය වනුයේ,","['27°C -30°C', '25°C -30°C', '26°C-30°C', '24°C -30°C']",1,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Geography_social_science_easy_f_117.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය භූගෝල විද්‍යාව විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: ශ්‍රී ලංකාවේ මධ්‍ය වාර්ෂික උෂ්ණත්වය වනුයේ,
+1. 27°C -30°C
+2. 25°C -30°C
+3. 26°C-30°C
+4. 24°C -30°C
+
+පිළිතුර: ",2,0,0.5792584419250488,True
+76,dancing,නර්තනය,humanities,easy,P_CP,8,https://pastpapers.wiki/grade-08-dancing-3rd-term-test-paper-with-answers-2019-sinhala-medium-central-province/,2019,,රත්න දීප ජන්ම භූමි... යන ගීතයේ පද රචනය කාගේද?,"['මහගම සේකරයන්ගේ ය.', 'පණ්ඩිත් අමරදේවයන්ගේ ය.', 'ප්\u200dරණීත් අබේසුන්දරයන්ගේ ය.', 'ලයනල් අල්ගමයන්ගේ ය.']",1,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/dancing_humanities_easy_f_108.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය නර්තනය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: රත්න දීප ජන්ම භූමි... යන ගීතයේ පද රචනය කාගේද?
+1. මහගම සේකරයන්ගේ ය.
+2. පණ්ඩිත් අමරදේවයන්ගේ ය.
+3. ප්‍රණීත් අබේසුන්දරයන්ගේ ය.
+4. ලයනල් අල්ගමයන්ගේ ය.
+
+පිළිතුර: ",2,0,0.5731663107872009,True
+102,Geography,භූගෝල විද්‍යාව,social_science,easy,P_NWP_2,7,https://www.e-thaksalawa.moe.gov.lk/moodle/course/view.php?id=984,2019,,ආසන්න වටපිටාවේ ඇති ගොඩබිම් හා සාගර පදනම් කරගෙන රටක පිහිටීම දැක්වීම ..................................................................................... පිහිටීම ලෙස හඳුන්වයි. ,"['සාපේක්\u200dෂ', 'නිරපේක්\u200dෂ', 'නිශ්චිත', 'ප්\u200dරාදේශීය']",1,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Geography_social_science_easy_f_117.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය භූගෝල විද්‍යාව විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: ආසන්න වටපිටාවේ ඇති ගොඩබිම් හා සාගර පදනම් කරගෙන රටක පිහිටීම දැක්වීම ..................................................................................... පිහිටීම ලෙස හඳුන්වයි. 
+1. සාපේක්‍ෂ
+2. නිරපේක්‍ෂ
+3. නිශ්චිත
+4. ප්‍රාදේශීය
+
+පිළිතුර: ",4,0,0.5603370666503906,True
+24,Buddhism,බුද්ධ ධර්මය,humanities,easy,P_CP,6,https://pastpapers.wiki/grade-06-buddhist-3rd-term-test-paper-with-answers-2019-sinhala-medium-central-province/,2019,,"අත්ථස්සද්වාර ජාතකයේ දියුණුවීම සඳහා ඇති කරුණු හයෙහි ""අලීනතා"" යනු,","['නිරෝගී බවයි.', 'දැහැමිව ජීවත් වීමයි.', 'කම්මැලි නැතිකමයි.', 'වැඩිහිටියන්ගේ උපදෙස් ලැබීමයි.']",3,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Buddhism_humanities_easy_f_162.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය බුද්ධ ධර්මය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: අත්ථස්සද්වාර ජාතකයේ දියුණුවීම සඳහා ඇති කරුණු හයෙහි ""අලීනතා"" යනු,
+1. නිරෝගී බවයි.
+2. දැහැමිව ජීවත් වීමයි.
+3. කම්මැලි නැතිකමයි.
+4. වැඩිහිටියන්ගේ උපදෙස් ලැබීමයි.
+
+පිළිතුර: ",2,0,0.5594256520271301,True
+46,History,ඉතිහාසය,humanities,easy,P_NWP_1,6,https://pastpapers.wiki/wp-admin/admin-ajax.php?juwpfisadmin=false&action=wpfd&task=file.download&wpfd_category_id=7811&wpfd_file_id=22939&token=&preview=1,2019,,මානව පරිණාමයේදී හැකි මිනිසා ලෙස විරුදාවලිය ලද මානවයා කවුද ?,"['හෝමෝ ඉරෙක්ටස්', 'හෝමෝ හැබිලස්', 'හෝමෝ සේපියන්', 'හෝමෝ නියැන්ඩර්තාලෙන්සීස්']",2,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/History_social_science_easy_f_151.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය ඉතිහාසය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: මානව පරිණාමයේදී හැකි මිනිසා ලෙස විරුදාවලිය ලද මානවයා කවුද ?
+1. හෝමෝ ඉරෙක්ටස්
+2. හෝමෝ හැබිලස්
+3. හෝමෝ සේපියන්
+4. හෝමෝ නියැන්ඩර්තාලෙන්සීස්
+
+පිළිතුර: ",4,0,0.5587467551231384,True
+95,dancing,නර්තනය,humanities,easy,Z_Mathugama,8,https://pastpapers.wiki/grade-08-dancing-second-term-test-paper-with-answers-2020/,2020,,"උඩරට වන්නමක අයත් කොටස් ගණන වන්නේ,","['4 කි.', '5 කි.', '7 කි.', '6 කි.']",4,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/dancing_humanities_easy_f_108.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය නර්තනය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: උඩරට වන්නමක අයත් කොටස් ගණන වන්නේ,
+1. 4 කි.
+2. 5 කි.
+3. 7 කි.
+4. 6 කි.
+
+පිළිතුර: ",3,0,0.5587467551231384,True
+25,Sinhala language and literature,සිංහල භාෂාව සහ සාහිත්‍යය,language,easy,P_NWP_3,6,https://pastpapers.wiki/2022-grade-06-sinhala-3rd-term-test-paper-with-answers-north-western-province/?swcfpc=1,2022,,නිවැරදි අක්‍ෂර වින්‍යාසයෙන් යුතු වචනය තෝරන්න.,"['පරික්සනය', 'අවබෝදය', 'දක්ෂිණ', 'මහළු']",3,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Sinhala_language_and_literature_language_easy_f_155.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය සිංහල භාෂාව සහ සාහිත්‍යය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: නිවැරදි අක්‍ෂර වින්‍යාසයෙන් යුතු වචනය තෝරන්න.
+1. පරික්සනය
+2. අවබෝදය
+3. දක්ෂිණ
+4. මහළු
+
+පිළිතුර: ",1,0,0.5579784512519836,True
+98,Buddhism,බුද්ධ ධර්මය,humanities,easy,P_SP_2,7,https://pastpapers.wiki/wp-admin/admin-ajax.php?juwpfisadmin=false&action=wpfd&task=file.download&wpfd_category_id=7812&wpfd_file_id=26268&token=&preview=1,2019,,"1 . විච්ඡාචරණ සම්පන්න ගුණය ලෙසය                                                                                                                                                                                
+2. අනුත්තරෝ පුරිසදම්ම සාරථී ගුණය ලෙසය
+3. සම්මා සම්බුද්ධ ගුණය ලෙසය                                                                                                                                                                                                                                                                                                                             4. ලෝකවිදූ ගුණය ලෙසය","['විච්ඡාචරණ සම්පන්න ගුණය ලෙසය', 'අනුත්තරෝ පුරිසදම්ම සාරථී ගුණය ලෙසය', 'සම්මා සම්බුද්ධ ගුණය ලෙසය', 'ලෝකවිදූ ගුණය ලෙසය']",2,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Buddhism_humanities_easy_f_162.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය බුද්ධ ධර්මය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: 1 . විච්ඡාචරණ සම්පන්න ගුණය ලෙසය                                                                                                                                                                                
+2. අනුත්තරෝ පුරිසදම්ම සාරථී ගුණය ලෙසය
+3. සම්මා සම්බුද්ධ ගුණය ලෙසය                                                                                                                                                                                                                                                                                                                             4. ලෝකවිදූ ගුණය ලෙසය
+1. විච්ඡාචරණ සම්පන්න ගුණය ලෙසය
+2. අනුත්තරෝ පුරිසදම්ම සාරථී ගුණය ලෙසය
+3. සම්මා සම්බුද්ධ ගුණය ලෙසය
+4. ලෝකවිදූ ගුණය ලෙසය
+
+පිළිතුර: ",1,0,0.5576165318489075,True
+147,Buddhism,බුද්ධ ධර්මය,humanities,easy,P_CP,8,https://pastpapers.wiki/grade-08-buddhism-3rd-term-test-paper-with-answers-2019-sinhala-medium-central-province/,2019,,"නිතර නිතර රැස්වීම, සමඟව රැස්ව, සමඟිව සාකච්ඡා කොට, සමගිව විසිරයාම වැනි කරුණු ඇතුළත් රාජ්‍ය පාලන ප්‍රතිපත්තිය වන්නේ,","['දස සක්විති වත්ය.', 'දසරාජ ධර්මය.', 'සප්ත අපරිහානිය ධර්මය.', 'සිව්බඹ විහරණය.']",3,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Buddhism_humanities_easy_f_162.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය බුද්ධ ධර්මය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: නිතර නිතර රැස්වීම, සමඟව රැස්ව, සමඟිව සාකච්ඡා කොට, සමගිව විසිරයාම වැනි කරුණු ඇතුළත් රාජ්‍ය පාලන ප්‍රතිපත්තිය වන්නේ,
+1. දස සක්විති වත්ය.
+2. දසරාජ ධර්මය.
+3. සප්ත අපරිහානිය ධර්මය.
+4. සිව්බඹ විහරණය.
+
+පිළිතුර: ",2,0,0.5572604537010193,True
+28,Eastern music,පෙරදිග සංගීතය,humanities,easy,None,6,https://pastpapers.wiki/wp-admin/admin-ajax.php?juwpfisadmin=false&action=wpfd&task=file.download&wpfd_category_id=7811&wpfd_file_id=23171&token=&preview=1,2019,,"ස  රි  ග,  රි  ග  ම,  .......... යන ස්වර අභ්‍යාසයේ ඊළඟට යෙදිය යුතු ස්වර ඛණ්ඩය වන්නේ,","['මීපධ', 'ගමප', 'ධනිස', 'පධති']",2,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Eastern_music_humanities_easy_f_143.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය පෙරදිග සංගීතය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: ස  රි  ග,  රි  ග  ම,  .......... යන ස්වර අභ්‍යාසයේ ඊළඟට යෙදිය යුතු ස්වර ඛණ්ඩය වන්නේ,
+1. මීපධ
+2. ගමප
+3. ධනිස
+4. පධති
+
+පිළිතුර: ",4,0,0.5561947822570801,True
+82,dancing,නර්තනය,humanities,easy,P_NWP_3,8,https://pastpapers.wiki/grade-08-dancing-3rd-term-test-paper-with-answers-2019-sinhala-medium-north-western-province/,2019,,"""මල් ගවසාලා කොණ්ඩය බැඳලා"" යන සවරං කවියේ තාල රූපය වන්නේ,","['මාත්\u200dරා 3 + 4', 'මාත්\u200dරා 3 + 3', 'මාත්\u200dරා 4 + 4', 'මාත්\u200dරා 2 + 3']",3,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/dancing_humanities_easy_f_108.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය නර්තනය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: ""මල් ගවසාලා කොණ්ඩය බැඳලා"" යන සවරං කවියේ තාල රූපය වන්නේ,
+1. මාත්‍රා 3 + 4
+2. මාත්‍රා 3 + 3
+3. මාත්‍රා 4 + 4
+4. මාත්‍රා 2 + 3
+
+පිළිතුර: ",2,0,0.5561947822570801,True
+115,Eastern music,පෙරදිග සංගීතය,humanities,easy,None,8,https://pastpapers.wiki/wp-admin/admin-ajax.php?juwpfisadmin=false&action=wpfd&task=file.download&wpfd_category_id=7813&wpfd_file_id=29818&token=&preview=1,2019,,"ජබ් තාලයේ ඛලියට අයත් විභාගයේ යේකා අක්ෂර වනුයේ,","['ති නා', 'ත තිත්', 'ධා තිත්', 'ධි නා']",1,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Eastern_music_humanities_easy_f_143.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය පෙරදිග සංගීතය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: ජබ් තාලයේ ඛලියට අයත් විභාගයේ යේකා අක්ෂර වනුයේ,
+1. ති නා
+2. ත තිත්
+3. ධා තිත්
+4. ධි නා
+
+පිළිතුර: ",3,0,0.5531771183013916,True
+83,History,ඉතිහාසය,humanities,easy,Z_Mathugama,7,https://pastpapers.wiki/grade-07-history-2nd-term-test-paper-with-answers-2023-mathugama-zone/,2023,,"පහත කොටස් නිවැරදිව ගැලපූ විට නිවැරදි පිළිතුර වන්නේ,
+1) සෑම ගම් දහයකටම එක් වෛද්‍යවරයෙකු පත් කිරීම, 2) අන්ධයන් හා රෝගීන්ට ආරෝග්‍යශාලා පිහිටුවීම, 3) පොළොන්නරුවේ ආරෝග්‍යශාලා පිහිටු වීම,4) වසංගත රෝගින්ට ආරෝග්‍යශාලා පිහිටු වීම                                                                                                                                                                                                                                                             A පළමුවන උපතිස්ස රජු, B පළමුවන උදය රජු, C බුද්ධදාස රජු, D පස්වන කස්සප රජු","['CABD', 'ABCD', 'BCDA', 'CDBA']",1,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/History_social_science_easy_f_151.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය ඉතිහාසය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: පහත කොටස් නිවැරදිව ගැලපූ විට නිවැරදි පිළිතුර වන්නේ,
+1) සෑම ගම් දහයකටම එක් වෛද්‍යවරයෙකු පත් කිරීම, 2) අන්ධයන් හා රෝගීන්ට ආරෝග්‍යශාලා පිහිටුවීම, 3) පොළොන්නරුවේ ආරෝග්‍යශාලා පිහිටු වීම,4) වසංගත රෝගින්ට ආරෝග්‍යශාලා පිහිටු වීම                                                                                                                                                                                                                                                             A පළමුවන උපතිස්ස රජු, B පළමුවන උදය රජු, C බුද්ධදාස රජු, D පස්වන කස්සප රජු
+1. CABD
+2. ABCD
+3. BCDA
+4. CDBA
+
+පිළිතුර: ",3,0,0.5476903915405273,True
+101,Eastern music,පෙරදිග සංගීතය,humanities,easy,None,7,https://pastpapers.wiki/wp-admin/admin-ajax.php?juwpfisadmin=false&action=wpfd&task=file.download&wpfd_category_id=7812&wpfd_file_id=43378&token=&preview=1,2020,,"පෙරදිග සංගීතයේ යෙදෙන '"" ස "" ස්වරය බටහිර සංගීතයේ දැක්වෙන්නේ,","['C', 'D', 'E', 'F']",1,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Eastern_music_humanities_easy_f_143.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය පෙරදිග සංගීතය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: පෙරදිග සංගීතයේ යෙදෙන '"" ස "" ස්වරය බටහිර සංගීතයේ දැක්වෙන්නේ,
+1. C
+2. D
+3. E
+4. F
+
+පිළිතුර: ",2,0,0.5469986200332642,True
+89,Health and Physical Science,සෞඛ්‍ය හා ශාරීරික විද්‍යාව,social_science,easy,P_SP_3,8,https://pastpapers.wiki/grade-08-health-and-physical-education-3rd-term-test-paper-with-answers-2019-sinhala-medium-southern-province/,2019,,"ස්ත්‍රී හා පුරුෂ පද්ධති පිළිබඳ M, N, O, P අක්ෂර වලින් පහත දැක්වේ.
+M-පුරුෂ ප්‍රජනක පද්ධතිය බාහිරව විවෘත වන්නේ මුත්‍රා මාර්ගය හරහාය.
+N-ස්ත‍්‍රීයකගේ උකුල් ප්‍රදේශය තුළ ස්ත්‍රී ප්‍රජනක පද්ධතියේ අවයව පිහිටයි.
+O- වෘෂණ කෝෂ තුළ ඩිම්බ නිපදවයි.
+P-ඩිම්බයක් යනු මාතෘ සෛලයකි.
+මින් නිවැරදි වන්නේ,","['M, N, P.', 'M, O, P.', 'N, O, P.', 'M, O, N.']",1,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Health_and_Physical_Science_social_science_easy_f_130.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය සෞඛ්‍ය හා ශාරීරික විද්‍යාව විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: ස්ත්‍රී හා පුරුෂ පද්ධති පිළිබඳ M, N, O, P අක්ෂර වලින් පහත දැක්වේ.
+M-පුරුෂ ප්‍රජනක පද්ධතිය බාහිරව විවෘත වන්නේ මුත්‍රා මාර්ගය හරහාය.
+N-ස්ත‍්‍රීයකගේ උකුල් ප්‍රදේශය තුළ ස්ත්‍රී ප්‍රජනක පද්ධතියේ අවයව පිහිටයි.
+O- වෘෂණ කෝෂ තුළ ඩිම්බ නිපදවයි.
+P-ඩිම්බයක් යනු මාතෘ සෛලයකි.
+මින් නිවැරදි වන්නේ,
+1. M, N, P.
+2. M, O, P.
+3. N, O, P.
+4. M, O, N.
+
+පිළිතුර: ",2,0,0.545170783996582,True
+93,Health and Physical Science,සෞඛ්‍ය හා ශාරීරික විද්‍යාව,social_science,easy,P_SP_3,8,https://pastpapers.wiki/grade-08-health-and-physical-education-3rd-term-test-paper-with-answers-2019-sinhala-medium-southern-province/,2019,,ක්‍රීඩකත්වය පිළිබඳ ඔබට එකඟ විය නොහැකි කරුණ කුමක්ද?,"['විනිසුරු තීරණය අගය කිරීම හා ඇගයීම', 'නායකත්වයට අභියෝග කිරීම.', 'සාධාරණ ලෙස තරංගයකින් ජය ලැබීම.', 'ජය පරාජය සම සිතින් භාර ගැනීම.']",2,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Health_and_Physical_Science_social_science_easy_f_130.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය සෞඛ්‍ය හා ශාරීරික විද්‍යාව විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: ක්‍රීඩකත්වය පිළිබඳ ඔබට එකඟ විය නොහැකි කරුණ කුමක්ද?
+1. විනිසුරු තීරණය අගය කිරීම හා ඇගයීම
+2. නායකත්වයට අභියෝග කිරීම.
+3. සාධාරණ ලෙස තරංගයකින් ජය ලැබීම.
+4. ජය පරාජය සම සිතින් භාර ගැනීම.
+
+පිළිතුර: ",1,0,0.5425782203674316,True
+113,Geography,භූගෝල විද්‍යාව,social_science,easy,P_NWP_2,8,https://www.e-thaksalawa.moe.gov.lk/moodle/course/view.php?id=121,2019,,දකුණු ආසියා කලාපයේ රටවල් අතර ..................................................................................... ට මුහුදු තීරයක් හිමිව නොමැත.,"['නේපාලය', 'බංග්ලාදේශය', 'ශ්\u200dරී ලංකාව', 'භූතානය']",1,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Geography_social_science_easy_f_117.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය භූගෝල විද්‍යාව විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: දකුණු ආසියා කලාපයේ රටවල් අතර ..................................................................................... ට මුහුදු තීරයක් හිමිව නොමැත.
+1. නේපාලය
+2. බංග්ලාදේශය
+3. ශ්‍රී ලංකාව
+4. භූතානය
+
+පිළිතුර: ",3,0,0.5423437356948853,True
+15,Buddhism,බුද්ධ ධර්මය,humanities,easy,P_SP_3,6,https://pastpapers.wiki/grade-06-buddhism-3rd-term-test-paper-with-answers-2020-sinhala-medium-southern-province/,2020,,"""නිදාගන්නවා"" යන වචනයට අදාළ ශාසනික වචනය වන්නේ,","['වළඳනවා යන්නයි.', 'පැන් පහසු වෙනවා යන්නයි.', 'වඩිනවා යන්නයි.', 'සැතපෙනවා යන්නයි.']",4,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Buddhism_humanities_easy_f_162.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය බුද්ධ ධර්මය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: ""නිදාගන්නවා"" යන වචනයට අදාළ ශාසනික වචනය වන්නේ,
+1. වළඳනවා යන්නයි.
+2. පැන් පහසු වෙනවා යන්නයි.
+3. වඩිනවා යන්නයි.
+4. සැතපෙනවා යන්නයි.
+
+පිළිතුර: ",3,0,0.5367333889007568,True
+11,Arts,චිත්‍ර,humanities,easy,P_SP,6,https://pastpapers.wiki/grade-06-art-2nd-term-test-paper-with-answers-2019-sinhala-medium-southern-province/,2019,,"ථූපාරාම ස්ථූපයේ ධාතු ගර්භයේ හැඩය වන්නේ,
+","['බුබ්බුලාකාරයි', 'ඝටාකාරයි', 'ධාන්\u200dයාකාරයි', 'ඝණ්ඨාකාරයි']",4,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Arts_humanities_easy_f_97.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය චිත්‍ර විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: ථූපාරාම ස්ථූපයේ ධාතු ගර්භයේ හැඩය වන්නේ,
+
+1. බුබ්බුලාකාරයි
+2. ඝටාකාරයි
+3. ධාන්‍යාකාරයි
+4. ඝණ්ඨාකාරයි
+
+පිළිතුර: ",3,0,0.5364816188812256,True
+10,Buddhism,බුද්ධ ධර්මය,humanities,easy,P_SP_3,6,https://pastpapers.wiki/grade-06-buddhism-3rd-term-test-paper-with-answers-2020-sinhala-medium-southern-province/,2020,,"ඉතිපි සෝ භගවා අරහං ...... විජ්ජාචරණ යනාදී ගාථා පාඨයෙහි හිස්තැනට නියමිත බුදුගුණය වන්නේ,","['සුගතෝ යන්නයි.', 'ලෝකවිදු යන්නයි.', 'සම්මා සම්බුද්ධෝ යන්නයි.', 'අනුත්තරෝ යන්නයි.']",3,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Buddhism_humanities_easy_f_162.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය බුද්ධ ධර්මය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: ඉතිපි සෝ භගවා අරහං ...... විජ්ජාචරණ යනාදී ගාථා පාඨයෙහි හිස්තැනට නියමිත බුදුගුණය වන්නේ,
+1. සුගතෝ යන්නයි.
+2. ලෝකවිදු යන්නයි.
+3. සම්මා සම්බුද්ධෝ යන්නයි.
+4. අනුත්තරෝ යන්නයි.
+
+පිළිතුර: ",2,0,0.5358178615570068,True
+33,drama and Theatre,නාට්‍ය හා රංග කලාව,humanities,easy,P_NWP_2,6,https://pastpapers.wiki/2023-grade-06-drama-2nd-term-test-paper-with-answers-north-western-province/,2023,,"පහත සඳහන් A,B,C,D,E කොටස් ඇසුරෙන් පහත ප්‍රශ්නවලට පිළිතුරු සපයන්න.
+
+A. "" මව්පිය දෙදෙනාට සලකාපන්නේ
+හිරිහැර කෙරුමට සිත නොම ගන්නේ
+බසිමින් පාරට පැන නුදුවන්නේ
+දවසින් දවසම දැන හැදියන්නේ ""
+
+B. කියාපන් යාළුවේ, කියාපන් මොකද මේ හනිකේ පස්ස නොබලාම දුවන් යන්නේ?
+
+C. කැත්තක් අරගෙන වත්තට යන කොට පෙත්තෙක් ඉඳගෙන කජු කනවා.
+
+D. කිසිම දෙයක් ලැබුණේ නැහැ
+කුස්සි ගානේ ඇවිද්දා මං
+දැන් ඉස්සර වගේ ගේවල
+වැඩිපුර කෑමත් නෑනේ
+
+E. ""දුකක් නැති ව මා ඇති කළ අම්මාට
+මිටක් වත් දුන්නේ නැත වී ඉල්ලු විට
+දෙකක් වී මැනලා දීලත් මල්ලකට
+මොකක් කියනවද මැහැලියේ පල දොරට
+
+කටහඬ වර්ධනය සඳහා යොදාගත හැක්කේ","['A', 'C', 'D', 'B']",2,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/drama_and_theatre_humanities_easy_f_128.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය නාට්‍ය හා රංග කලාව විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: පහත සඳහන් A,B,C,D,E කොටස් ඇසුරෙන් පහත ප්‍රශ්නවලට පිළිතුරු සපයන්න.
+
+A. "" මව්පිය දෙදෙනාට සලකාපන්නේ
+හිරිහැර කෙරුමට සිත නොම ගන්නේ
+බසිමින් පාරට පැන නුදුවන්නේ
+දවසින් දවසම දැන හැදියන්නේ ""
+
+B. කියාපන් යාළුවේ, කියාපන් මොකද මේ හනිකේ පස්ස නොබලාම දුවන් යන්නේ?
+
+C. කැත්තක් අරගෙන වත්තට යන කොට පෙත්තෙක් ඉඳගෙන කජු කනවා.
+
+D. කිසිම දෙයක් ලැබුණේ නැහැ
+කුස්සි ගානේ ඇවිද්දා මං
+දැන් ඉස්සර වගේ ගේවල
+වැඩිපුර කෑමත් නෑනේ
+
+E. ""දුකක් නැති ව මා ඇති කළ අම්මාට
+මිටක් වත් දුන්නේ නැත වී ඉල්ලු විට
+දෙකක් වී මැනලා දීලත් මල්ලකට
+මොකක් කියනවද මැහැලියේ පල දොරට
+
+කටහඬ වර්ධනය සඳහා යොදාගත හැක්කේ
+1. A
+2. C
+3. D
+4. B
+
+පිළිතුර: ",1,0,0.5358178615570068,True
+52,Eastern music,පෙරදිග සංගීතය,humanities,easy,None,7,https://pastpapers.wiki/wp-admin/admin-ajax.php?juwpfisadmin=false&action=wpfd&task=file.download&wpfd_category_id=7812&wpfd_file_id=26750&token=&preview=1,2019,,"අපරදිග සංගීතයේ ස්වර නාම පහත අයුරින් ලියූ විට ඒ සඳහා පිළිවෙලින් පෙරදිග සංගීතයේ යෙදිය හැකි ස්වර සංකේත තෝරන්න.
+Do, So, Mi, Re","['රි, ග, ම, ස', 'ස, ප, ග, රි', 'ස, රි, ග, ප', 'ස, ග, ප, රි']",2,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Eastern_music_humanities_easy_f_143.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය පෙරදිග සංගීතය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: අපරදිග සංගීතයේ ස්වර නාම පහත අයුරින් ලියූ විට ඒ සඳහා පිළිවෙලින් පෙරදිග සංගීතයේ යෙදිය හැකි ස්වර සංකේත තෝරන්න.
+Do, So, Mi, Re
+1. රි, ග, ම, ස
+2. ස, ප, ග, රි
+3. ස, රි, ග, ප
+4. ස, ග, ප, රි
+
+පිළිතුර: ",3,0,0.532619059085846,True
+114,Geography,භූගෝල විද්‍යාව,social_science,easy,P_NWP_3,8,https://pastpapers.wiki/2022-grade-08-geography-3rd-term-test-paper-with-answers-north-western-province/?swcfpc=1,2022,,හින්දු බැතිමතුන්ගේ ශුද්ධ වු ගංගා නදිය වන්නේ.................................................................................... ගංගාවයි. ,"['ගංගානම්', 'ක්\u200dරිෂ්ණා', 'සින්දු', 'බ්\u200dරහ්මපුත්\u200dර']",1,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Geography_social_science_easy_f_117.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය භූගෝල විද්‍යාව විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: හින්දු බැතිමතුන්ගේ ශුද්ධ වු ගංගා නදිය වන්නේ.................................................................................... ගංගාවයි. 
+1. ගංගානම්
+2. ක්‍රිෂ්ණා
+3. සින්දු
+4. බ්‍රහ්මපුත්‍ර
+
+පිළිතුර: ",3,0,0.5323222875595093,True
+84,Civics,පුරවැසි අධ්‍යාපනය,social_science,easy,P_NWP_3,8,https://pastpapers.wiki/2022-grade-08-civic-education-3rd-term-test-paper-with-answers-north-western-province/?swcfpc=1,2022,,සේවක අයිතීන් ආරක්ෂා කරදීම සඳහා ශ්‍රී ලංකාවේ සලසා ඇති විධි විධාන වලට අයත් පනතක් වන්නේ මින් කුමක්ද?,"['සේවක අර්ථසාධක අරමුදල පනත', 'ශ්\u200dරී ලංකා විදේශ විනිමය පනත', 'උසස් අධ්\u200dයාපන පනත', 'පොලිස් සේවා පනත']",1,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Civics_social_science_easy_f_129.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය පුරවැසි අධ්‍යාපනය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: සේවක අයිතීන් ආරක්ෂා කරදීම සඳහා ශ්‍රී ලංකාවේ සලසා ඇති විධි විධාන වලට අයත් පනතක් වන්නේ මින් කුමක්ද?
+1. සේවක අර්ථසාධක අරමුදල පනත
+2. ශ්‍රී ලංකා විදේශ විනිමය පනත
+3. උසස් අධ්‍යාපන පනත
+4. පොලිස් සේවා පනත
+
+පිළිතුර: ",2,0,0.5292563438415527,True
+75,Eastern music,පෙරදිග සංගීතය,humanities,easy,None,7,https://pastpapers.wiki/2022-grade-07-music-3rd-term-test-paper-with-answers-north-western-province/?swcfpc=1,2022,,"^හා / යන සංකේත පිළිවෙලින් දැක්වෙන්නේ,","['තිත්, තෙයි යන්නයි.', 'තෙයි, තිත් යන්නයි.', 'තිත්, තිත් යන්නයි.', 'තෙයි, තෙයි යන්නයි.']",1,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Eastern_music_humanities_easy_f_143.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය පෙරදිග සංගීතය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: ^හා / යන සංකේත පිළිවෙලින් දැක්වෙන්නේ,
+1. තිත්, තෙයි යන්නයි.
+2. තෙයි, තිත් යන්නයි.
+3. තිත්, තිත් යන්නයි.
+4. තෙයි, තෙයි යන්නයි.
+
+පිළිතුර: ",2,0,0.5283089876174927,True
+64,History,ඉතිහාසය,humanities,easy,P_WP,7,https://pastpapers.wiki/western-province-20232024-grade-07-history-3rd-term-test-paper/,2023,,රෝම ගෘහ නිර්මාණයේ විශිෂ්ටත්වය පිළිබිඹු කරන විශාල ඉදිකිරීමක් ලෙස සැලකෙන්නේ,"['පැරණි එළ මහන් රංග පීඨය', 'පැන්තියන් දේවස්ථානය', 'පාතිනන් දෙව් මැදුර', 'මහා නාන තටාකය']",2,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/History_social_science_easy_f_151.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය ඉතිහාසය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: රෝම ගෘහ නිර්මාණයේ විශිෂ්ටත්වය පිළිබිඹු කරන විශාල ඉදිකිරීමක් ලෙස සැලකෙන්නේ
+1. පැරණි එළ මහන් රංග පීඨය
+2. පැන්තියන් දේවස්ථානය
+3. පාතිනන් දෙව් මැදුර
+4. මහා නාන තටාකය
+
+පිළිතුර: ",4,0,0.5277408361434937,True
+126,History,ඉතිහාසය,humanities,easy,P_CP,8,https://pastpapers.wiki/grade-08-history-3rd-term-test-paper-with-answers-2019-sinhala-medium-central-province/,2019,,සීගිරි චිත්‍ර වල ස්ත්‍රී රූප පැළද සිටින අනුමාන මල් වර්ග මොනවාද?,"['ඕලු, නෙළුම්, මානෙල්', 'මානෙල්, උපුල්, කඩුපුල්', 'නෙළුම්, උපුල්, සපු', 'උපුල්, නෙළුම්, කඩුපුල්']",3,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/History_social_science_easy_f_151.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය ඉතිහාසය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: සීගිරි චිත්‍ර වල ස්ත්‍රී රූප පැළද සිටින අනුමාන මල් වර්ග මොනවාද?
+1. ඕලු, නෙළුම්, මානෙල්
+2. මානෙල්, උපුල්, කඩුපුල්
+3. නෙළුම්, උපුල්, සපු
+4. උපුල්, නෙළුම්, කඩුපුල්
+
+පිළිතුර: ",2,0,0.5236883163452148,True
+42,science,විද්‍යාව,stem,easy,P_NWP_2,6,https://pastpapers.wiki/grade-06-science-2nd-term-test-paper-with-answers-2019-sinhala-medium-north-western-province/,2019,,"ආලෝකය සම්බන්ධ ප්‍රකාශ තුනක් පහත දැක්වේ.
+A - ආලෝකය ශක්ති විශේෂයකි.
+B - ආලෝකය සරල රේඛීය මාර්ගයක ගමන් කරයි.
+C - ආලෝකය ගමන් කරන ඉතාමත් පටු ගමන් මාර්ගයක් ආලෝක කදම්බයක් නම් වේ.
+මින් සත්‍ය වන්නේ,
+","['A හා B', 'B හා C', 'A හා C', 'A, B, C සියල්ල']",1,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/science_stem_easy_f_163.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය විද්‍යාව විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: ආලෝකය සම්බන්ධ ප්‍රකාශ තුනක් පහත දැක්වේ.
+A - ආලෝකය ශක්ති විශේෂයකි.
+B - ආලෝකය සරල රේඛීය මාර්ගයක ගමන් කරයි.
+C - ආලෝකය ගමන් කරන ඉතාමත් පටු ගමන් මාර්ගයක් ආලෝක කදම්බයක් නම් වේ.
+මින් සත්‍ය වන්නේ,
+
+1. A හා B
+2. B හා C
+3. A හා C
+4. A, B, C සියල්ල
+
+පිළිතුර: ",3,0,0.5220127105712891,True
+130,History,ඉතිහාසය,humanities,easy,P_CP,8,https://pastpapers.wiki/grade-08-history-3rd-term-test-paper-with-answers-2019-sinhala-medium-central-province/,2019,,"වැලිවිට සරණංකර හිමියන්ට සංඝරාජ පදවිය පිරිනමන ලද රජු වන්නේ,","['ශ්\u200dරී විජය රාජසිංහ රජු', 'කීර්ති ශ්\u200dරී රාජසිංහ රජු', 'රාජාධිරාජ සිංහ රජු', 'ශ්\u200dරී වික්\u200dරම රාජසිංහ රජු']",2,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/History_social_science_easy_f_151.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය ඉතිහාසය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: වැලිවිට සරණංකර හිමියන්ට සංඝරාජ පදවිය පිරිනමන ලද රජු වන්නේ,
+1. ශ්‍රී විජය රාජසිංහ රජු
+2. කීර්ති ශ්‍රී රාජසිංහ රජු
+3. රාජාධිරාජ සිංහ රජු
+4. ශ්‍රී වික්‍රම රාජසිංහ රජු
+
+පිළිතුර: ",3,0,0.520259439945221,True
+61,Eastern music,පෙරදිග සංගීතය,humanities,easy,None,7,https://pastpapers.wiki/wp-admin/admin-ajax.php?juwpfisadmin=false&action=wpfd&task=file.download&wpfd_category_id=7812&wpfd_file_id=26744&token=&preview=1,2020,,"විදුලි ඕගනයක ගීතයක් වාදනයේ දී තාලයේ ලය නැතහොත් වේගය ක්‍රියාත්මක කිරීම සඳහා භාවිතා කරනු ලබන
+ස්වීචය නම් කරනු ලබන්නේ.
+
+                ","['Tempo', 'Style', 'Voice', 'Tone']",1,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Eastern_music_humanities_easy_f_143.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය පෙරදිග සංගීතය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: විදුලි ඕගනයක ගීතයක් වාදනයේ දී තාලයේ ලය නැතහොත් වේගය ක්‍රියාත්මක කිරීම සඳහා භාවිතා කරනු ලබන
+ස්වීචය නම් කරනු ලබන්නේ.
+
+                
+1. Tempo
+2. Style
+3. Voice
+4. Tone
+
+පිළිතුර: ",4,0,0.5201449394226074,True
+44,History,ඉතිහාසය,humanities,easy,P_NWP_1,6,https://pastpapers.wiki/wp-admin/admin-ajax.php?juwpfisadmin=false&action=wpfd&task=file.download&wpfd_category_id=7811&wpfd_file_id=22939&token=&preview=1,2019,,පහත මූලාශ්‍ර අතරින් ඔබේ පාසලේ ඉතිහාසය හැදෑරීමට උදව්කරගත හැකි වඩාත් උචිත ලිඛිත මූලාශ්‍රය කුමක්ද ?,"['නාමලේඛනය', 'ලොග් පොත', 'පාසල් සඟරා', 'ඇතුළත් කිරීමේ ලේඛනය']",2,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/History_social_science_easy_f_151.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය ඉතිහාසය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: පහත මූලාශ්‍ර අතරින් ඔබේ පාසලේ ඉතිහාසය හැදෑරීමට උදව්කරගත හැකි වඩාත් උචිත ලිඛිත මූලාශ්‍රය කුමක්ද ?
+1. නාමලේඛනය
+2. ලොග් පොත
+3. පාසල් සඟරා
+4. ඇතුළත් කිරීමේ ලේඛනය
+
+පිළිතුර: ",4,0,0.517553985118866,True
+120,Eastern music,පෙරදිග සංගීතය,humanities,easy,None,8,https://pastpapers.wiki/wp-admin/admin-ajax.php?juwpfisadmin=false&action=wpfd&task=file.download&wpfd_category_id=7813&wpfd_file_id=29818&token=&preview=1,2019,,"quaver (වෙවර්) ස්වර සංකේතයේ මාත්‍රාවක වටිනාකම වනුයේ,","['හතරකි', 'දෙකකි', 'එකකි', 'භාගයකි']",4,/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087/TEST/easy/Eastern_music_humanities_easy_f_143.json,ovinduG/sinhala-aya-global-adapter (adapter on CohereLabs/tiny-aya-global),"මෙය පෙරදිග සංගීතය විෂයයට අදාළ බහුවරණ ප්‍රශ්නයකි.
+පහත ප්‍රශ්නයට 1, 2, 3, 4 යන පිළිතුරුවලින් නිවැරදි හෝ ඉතාමත් ගැළපෙන පිළිතුර තෝරන්න.
+
+ප්‍රශ්නය: quaver (වෙවර්) ස්වර සංකේතයේ මාත්‍රාවක වටිනාකම වනුයේ,
+1. හතරකි
+2. දෙකකි
+3. එකකි
+4. භාගයකි
+
+පිළිතුර: ",2,0,0.5175034403800964,True
