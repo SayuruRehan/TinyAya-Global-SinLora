@@ -1,28 +1,3 @@
-{
-  "dataset_root": "/root/.cache/huggingface/hub/datasets--naist-nlp--SinhalaMMLU/snapshots/aa73a2b1cb58a7933966aa732c5b12ce586b2087",
-  "dataset_questions": 1851,
-  "culture_questions_detected": 1393,
-  "test_model_summary": {
-    "model": "/workspace/sinhala-qwen3-4b-lora-merged",
-    "num_questions": 1851,
-    "overall_accuracy": 0.3803349540788763,
-    "overall_ci95": [
-      0.35980551053484605,
-      0.4019448946515397
-    ],
-    "culture_questions": 1393,
-    "culture_accuracy": 0.3653984206748026,
-    "culture_ci95": [
-      0.3417085427135678,
-      0.3912419239052405
-    ],
-    "nonculture_questions": 458,
-    "nonculture_accuracy": 0.425764192139738,
-    "nonculture_ci95": [
-      0.3799126637554585,
-      0.46943231441048033
-    ],
-    "culture_minus_nonculture": -0.06036577146493538,
-    "avg_confidence": 0.5718752213067972
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e7e9e408231afbe4ae6623d1f0b36a29bcce7329015dd37214e3c027fe3385c3
+size 855
